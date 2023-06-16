@@ -1,10 +1,10 @@
-#include <stdio.h>
+#include<stdio.h>
 /**
- * c program with a puts function
- * and a  return 0 value
+ * main:entry point
+ * return:always 0(suceess)
  */
 int main(void)
 {
-puts ("\"Programming is like building a multilingual puzzle");
-return(0);
+puts("\"Programming is like building a multilingual puzzle");
+return (0);
 }
