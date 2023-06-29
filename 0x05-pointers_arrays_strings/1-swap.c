@@ -4,10 +4,11 @@
  * @a:interger to swap
  * @b:interger to swap
  */
+
 void swap_int(int *a, int *b)
 {
 	int m;
 	m = *a;
-	*b = *a;
+	*a = *b;
 	*b = m;
 }
