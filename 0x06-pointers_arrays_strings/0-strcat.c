@@ -7,10 +7,8 @@
  *
  * Return: A pointer to the destination string @dest.
  */
-
 char *strcat(char *dest, const char *src)
 {
-	
 	int i;
 	int j;
 
@@ -25,7 +23,7 @@ char *strcat(char *dest, const char *src)
 		dest[i] = src[j];
                    i++;
 		   j++;
-         }
+        }
 		   dest[i]='\0';
 		  return(dest);
 }
