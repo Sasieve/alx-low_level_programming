@@ -3,7 +3,7 @@
 #include <stdio.h>
 /**
  * main-declare n variables with the if and else statements
- * return:value 0
+ * Return:always 0 (success) 
  */
 int main(void)
 {
@@ -14,17 +14,17 @@ n = rand() - RAND_MAX / 2;
 
 if (n > 0)
 {
-printf ("%d is positive\n", n);
+printf("%d is positive\n", n);
 }
 else if (n < 0)
 {
-printf ("%d is negative\n", n);
+printf("%d is negative\n", n);
 }
 
 else
 {
-printf ("%d is zero\n", n);
+printf("%d is zero\n", n);
 }
 
-return(0);
+return (0);
 }
