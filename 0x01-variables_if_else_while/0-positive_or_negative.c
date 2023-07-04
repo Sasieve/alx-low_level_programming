@@ -3,7 +3,7 @@
 #include <stdio.h>
 /**
  * main-declare n variables with the if and else statements
- * Return:always 0 (success) 
+ *Return:always 0(success)
  */
 int main(void)
 {
